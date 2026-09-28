@@ -8,6 +8,6 @@ const marca = prompt("Ingrese la marca")
 const modelo = prompt("Ingrese el modelo")
 const año = Number(prompt("Ingrese el año"))
 
-const auto = new Car(marca, modelo, año)
+const auto = new Carro(marca, modelo, año)
 
 console.log(auto)
