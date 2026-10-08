@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fff3d6;
+  margin: 40px;
+}
+
+h1 {
+  color: #8b0000;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  font-size: 17px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+/* ARROZ */
+li span {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+li span:hover {
+  text-decoration: underline;
+}
+
+/* COME TO BURGER TOWN */
+h3 {
+  cursor: pointer;
+}
+
+h3:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 300px;
+  border-radius: 15px;
+  margin: 15px 0 25px;
+}

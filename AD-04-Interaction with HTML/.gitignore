@@ -1,0 +1,28 @@
+# Dependencias (si usas npm, Vite, Live Server, etc.)
+node_modules/
+.package-lock.json
+
+# Archivos de configuración del Editor
+.vscode/
+.idea/
+
+# Variables de entorno y secretos (Claves de API, contraseñas)
+.env
+.env.local
+.env.*.local
+
+# Archivos compilados o de producción (si usas empaquetadores como Vite o Webpack)
+dist/
+build/
+out/
+
+# Registros del sistema y errores
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos basura del Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
