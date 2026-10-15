@@ -1,0 +1,52 @@
+
+/* Modo claro */
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+main {
+  min-height: 70vh;
+}
+
+footer {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+/* Tarjetas en modo claro */
+.card {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+/* Modo oscuro */
+[data-bs-theme="dark"] body {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .card {
+  background-color: #343a40;
+  color: #f8f9fa;
+  border-color: #495057;
+}
+
+[data-bs-theme="dark"] .form-control {
+  background-color: #343a40;
+  color: #f8f9fa;
+  border-color: #6c757d;
+}
+
+[data-bs-theme="dark"] .form-control::placeholder {
+  color: #adb5bd;
+}
+
+[data-bs-theme="dark"] .form-control:focus {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .form-label {
+  color: #f8f9fa;
+}
