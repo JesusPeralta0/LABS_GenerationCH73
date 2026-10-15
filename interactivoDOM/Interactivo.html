@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactivo</title>
+     <link rel="stylesheet" href="style.css">
+      
+</head>
+<body>
+   <main>
+    <h1>Mi portafolio</h1>
+    <p class="subtitulo">Agrega tus proyectos y quita los que ya no quieras mostrar.</p>
+
+    <div class="barra">
+      <!-- 1. Título de la sección (lo actualizará JavaScript) -->
+      <h2 id="titulo-seccion">Mis proyectos</h2>
+      <!-- 2. Botón para agregar tarjetas -->
+      <button id="btn-agregar" type="button">Agregar proyecto</button>
+    </div>
+
+    <!-- 3. Contenedor de proyectos -->
+    <section id="proyectos" aria-live="polite"></section>
+    <p id="vacio">Todavía no hay proyectos. Haz clic en "Agregar proyecto".</p>
+  </main>
+
+  <script src="Interactivo.js"></script>
+</body>
+</html>
